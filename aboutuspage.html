@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    
+</head>
+    <style>
+        
+/* Projects section */
+#projects .projects {
+	flex-direction: column;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#projects .projects-header h1 {
+	margin-bottom: 50px;
+}
+#projects .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#projects .project-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 15rem;
+	font-weight: 500;
+}
+#projects .project-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#projects .project-info p {
+	color: white;
+}
+#projects .project-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 1200%;
+	width: 100%;
+	
+	opacity: 0.7;
+}
+#projects .project-img img {
+	transition: 0.3s ease transform;
+}
+#projects .project-item:hover .project-img img {
+	transform: scale(1.1);
+}
+/* End Projects section */
+@media only screen and (min-width: 768px) {
+	.cta {
+		font-size: 2.5rem;
+		padding: 20px 60px;
+	}
+	h1.section-title {
+		font-size: 6rem;
+	}
+
+	/* Hero */
+	#hero h1 {
+		font-size: 15rem;
+	}
+	/* End Hero */
+
+	/* Services Section */
+	#services .service-bottom .service-item {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+	/* End Services Section */
+
+	/* Project */
+	#projects .project-item {
+		flex-direction: row;
+	}
+	#projects .project-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#projects .project-item {
+		height: 300px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#projects .all-projects .project-info {
+		height: 100%;
+	}
+	#projects .all-projects .project-img {
+		height: 100%;
+	}
+        }
+	
+.para
+{
+font-family:TIMES NEW ROMAN;
+font-size:20px;
+}
+    </style>
+<body bgcolor = "#ffe6f0">
+
+
+<section class="about" id="about">
+
+    
+	
+
+    <div class="row">
+
+        <div class="video-container">
+            <center><video src="https://assets.mixkit.co/videos/preview/mixkit-labrador-enjoying-a-head-scratch-17123-large.mp4" loop autoplay muted width = "80%" height = "500px"></video>
+			
+			
+            <h1 >LOVE & CARE FOR PETS</h1>
+        </div>
+
+        <div class="content">
+            <h1>Why choose us?</h1>
+            <p class = "para">Pet care is a pet website that is "dedicated to all things animal", and I strive to have fun with what I do here. I enjoy enriching the blog with beautiful photographs and fun videos.
+<br><br>As a team, we pride ourselves on providing each and every one of our clients with:<br><br>
+
+#Compassionate and friendly care<br><br>
+
+#Superior customer service<br><br>
+
+#High–quality veterinary services<br><br>
+
+#Responsible and ethical treatment<br><br>
+
+We not only deal with the best quality pet food in the market but also provide you with the highest quality pet accessories which include toys, feeder<br><br>
+There truly isn’t anything more fascinating in the world other than being the parent of a pet and we completely understand this fascination because we happen to love pets too. Adoption is something that we highly encourage, because we ourselves have adopted pets in the past.</p>
+            
+        </div>
+
+    </div>
+
+</section>
+    <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title"><span></span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h3>"IT'S NOT CRAZY , IT'S LOVE"</h3>
+            <h2>FOUNDER</h2>
+            <p>Every PETCARE product is developed with this core concept in mind. We strive to make the highest quality, most unique products for pups and people that also do something even greater. 
+			That’s why when you shop PETCARE, we make a donation through each purchased item towards one of a variety of give-back programs. These are real, ongoing programs, making an impact right now.</p>
+          </div>
+          <div class="project-img">
+            <img src="C:\Users\HEMA\Pictures\tyson.jpg" alt="img" height = "320px" width="480px">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h3>IT'S "I AND LOVE AND YOU"</h3>
+            <h2>FOUNDER</h2>
+            <p>We have been called quirky, driven, fun-loving, talented, compassionate, and even witty at times. We’re the people behind PETCARE! 
+			We bring our diverse set of skills and backgrounds to the table every day and work hard to progress our mission – to spread awareness for pets and individuals in need.</p>
+          </div>
+          <div class="project-img">
+           <center> <img src="C:\Users\HEMA\Pictures\bommi.jpg" alt="img" height = "320px" width="390px" alt="img"></center>
+          </div>
+      </div>
+  </section>
+  <!-- End Projects Section -->
+
+    </body>
+</html>
